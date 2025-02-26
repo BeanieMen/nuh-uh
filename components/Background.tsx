@@ -42,7 +42,7 @@ export default function Background() {
       gridInfo.rows = Math.ceil(docHeight / gridInfo.boxSize);
 
 
-sw      const dpr = window.devicePixelRatio || 1;
+      const dpr = window.devicePixelRatio ?? 1;
       canvas.style.width = `${w}px`;
       canvas.style.height = `${docHeight}px`;
       canvas.width = w * dpr;
